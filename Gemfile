@@ -8,6 +8,9 @@ gem 'rails', '~> 6.0.0'
 
 gem "mysql2", "~> 0.5.2"
 
+# This will provide us with a respond_with method which will keep the controller code nice and DRY.
+gem 'responders'
+
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
